@@ -21,11 +21,11 @@ Project set up
 
 To begin building this application, start Mule Studio and
 
-1)Go to create a new Maven project.
-2)Name of this project should reflect with <FunctionalityName>-Configuration.
-3)Create a configs folder under src/main/resources which contains property files of all environments.Ex:dev,sit,uat,pref and prod.
-4)Use Constants.java and UpdateMuleDeployProperties.java as same and keep these two utilities under src/main/java floder.
-5)Use the existing pom.xml file and change the artifactId and groupId according to the requirement.
+1. Go to create a new Maven project.
+2. Name of this project should reflect with <FunctionalityName>-Configuration.
+3. Create a configs folder under src/main/resources which contains property files of all environments.Ex:dev,sit,uat,pref and prod.
+4. Use Constants.java and UpdateMuleDeployProperties.java as same and keep these two utilities under src/main/java floder.
+5. Use the existing pom.xml file and change the artifactId and groupId according to the requirement.
 
 
 
