@@ -26,6 +26,23 @@ To begin building this application, start Mule Studio and
 3. Create a configs folder under src/main/resources which contains property files of all environments.Ex:dev,sit,uat,pref and prod.
 4. Use Constants.java and UpdateMuleDeployProperties.java as same and keep these two utilities under src/main/java floder.
 5. Use the existing pom.xml file and change the artifactId and groupId according to the requirement.
+6. Open command prompt and point to project location
+7. Execute the below command
+
+	mvn clean install -DmuleProjectDirectory=<path where mule project is located>  -Dskip.updatedeployproperties=false
+
+### Step 2: Create a new Mule project
+
+1. Create a new pom based Mule project.
+2. Add the goals unpack,read-project-properties and run to pom.xml file.(Can refer 36-62 ,124-141 and 279-299 lines of pom.xml).
+3. create a properties file on local system(Ex:maven.properties).This property file contains the names of property files  to be replaced with environment specific values.
+4. Open command prompt and point to project location
+5. Execute the below command.
+	mvn compile package –Denvironment.name=dev -DFile=F:/maven.properties
+After executing the above command mule project contains the property files with values related to dev environment
+
+
+
 
 
 
