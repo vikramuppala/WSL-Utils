@@ -1,6 +1,6 @@
 [Purpose](#purpose)  
 [Prerequisites](#prerequisites)
-[Project set up] (#projectsetup)
+[Project set up](#projectsetup)
 * [Step 1: Create a Configuration project](#step-1-create-a-configuration-project)  
 * [Step 2: Create a new Mule project](#step-2-create-a-new-mule-project)  
 
