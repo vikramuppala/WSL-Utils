@@ -15,7 +15,7 @@ Prerequisites
 
 The proposed build process requires two maven plugins, namely - maven-dependency-plugin and maven-resources-plugin. 
 
-Project set up
+Project setup
 ==============
 ### Step 1: Create a Configuration project
 
